@@ -1,6 +1,6 @@
-# Pytube Backup Tool – GIP 2
+# Pytube Backup Tool – GIP 
 
-Een educatieve toepassing ontwikkeld als onderdeel van het GIP 2-project (Geïntegreerde Proef 6de middelbaar) die demonstreert hoe de `pytube`-bibliotheek gebruikt kan worden voor het downloaden van YouTube-video's.
+Een educatieve toepassing ontwikkeld als onderdeel van het GIP project (Geïntegreerde Proef 6de middelbaar) die demonstreert hoe de `pytube`-bibliotheek gebruikt kan worden voor het downloaden van YouTube-video's.
 
 ## 📚 Over dit project
 
