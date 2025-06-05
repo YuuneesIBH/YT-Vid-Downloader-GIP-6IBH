@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VideoConvert</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style2.css')}}" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+
+  </style>
+  <body>
+
+    <!-- Hero Sectie -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Thank You For <span>Using</span></h1>
+        <p class="hero__description">Our  Service!</p>
+        <p class="hero_redirect">Redirecting You</p>       
+        
+      </div>
+    </div>
+
+    <!-- Footer sectie -->
+    <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Read Our</h2>
+              <a href="{{url_for('static', filename='privacy-policy.pdf')}}">Privacy Policy</a> 
+              <a href="{{url_for('static', filename='terms-of-service-videoconvert.pdf')}}">Terms of Service</a>
+            </div>  
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <p class="website__rights">© VideoConvert 2022 </p>
+            <div class="social__icons">
+              <a href="https://www.linkedin.com/in/younes-el-azzouzi-45701622b/" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/yel18t" class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://github.com/Yuunees" class="social__icon--link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://discord.gg/XKrqBJw2gM" class="social__icon--link"
+                ><i class="fab fa-discord"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+        
+        
+      <!-- Hier wordt/worden de script(s) aangewezen. -->
+      <script src="{{url_for('static', filename='main.js')}}"></script> 
+      <script>
+        setTimeout(function(){
+           window.location.href = "{{ url_for('return_main') }}";
+        }, 5010);
+     </script>
+
+     <!--Deze script hierboven zorgt ervoor dat de thankyoupage terug naar de mainpage gaat!-->
+      </div>
+  </body>
+  
+  </html>
